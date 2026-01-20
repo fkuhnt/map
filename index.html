@@ -44,11 +44,13 @@
 	map.fitBounds(bounds);
 
 	
-	const marker = L.marker([50.5, 30.5]).addTo(map)
-		.bindPopup('<b>Rezeption</b><br />Verleihfix.').openPopup();
+	const marker = L.marker([450, 139]).addTo(map)
+		.bindPopup('<b>Sauna am See</b><br/> <a href="https://spitzenort.glide.page/dl/a400f7/s/85159a/r/a-k3jPSWlSAKokMunvj5TDg" target="_blank">Infos</a>').openPopup();
 	
 	marker = L.marker([532, 220]).addTo(map)
-		.bindPopup('<b>Rezeption</b><br/> <a href="https://spitzenort.glide.page/dl/a400f7/s/85159a/r/a-k3jPSWlSAKokMunvj5TDg" target="_blank">Infos</a>').openPopup();
+		.bindPopup('<b>Rezeption</b><br/> <a href="https://www.spitzenort.de" target="_blank">Infos</a>').openPopup();
+	
+		
 	
 	var popup = L.popup()
     .setLatLng([100, 100])
