@@ -39,7 +39,7 @@
 	});
 
 	const bounds = [[0, 0], [1000, 1000]];
-	const image = L.imageOverlay('https://www.spitzenort.de/fileadmin/user_upload/test/Lageplan_App.jpg', bounds).addTo(map);
+	const image = L.imageOverlay('https://www.spitzenort.de/fileadmin/user_upload/test/Lageplan_A3app.jpg', bounds).addTo(map);
 
 	map.fitBounds(bounds);
 
